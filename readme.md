@@ -15,4 +15,10 @@
     - class vs. id
     - selector
 
+# 1.3 Requirements 설치하기
+- Browser: Chrome
+- Text-Editor: VSCode
 
+# 1.4 JavaScript란,
+- Only Programming Language for FrontEnd
+- JS is already bundled in Browser
