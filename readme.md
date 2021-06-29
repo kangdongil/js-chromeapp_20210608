@@ -132,6 +132,9 @@
   ```
 - Execute Function
   `[FUNCTION]();`
+- Return Result from Function
+  `return ~;`
+  - after `return`, code doesn't work
 
 * Function inside of Object
   - How to Create
