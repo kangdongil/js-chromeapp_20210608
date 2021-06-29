@@ -64,6 +64,11 @@
   - cover value with "" or ''
     `"hello"`
   - number can be string, `"2"`
+- BOOLEAN
+  true or false
+- OTHERS:
+  - null: empty state
+  - undefined: variable exist but value is not assigned
 
 # 2.2 Variable 알아보기
 
@@ -73,18 +78,16 @@
 - const
   : hold constant value
   `const [NAME] = [VALUE];`
-
   - `[NAME]`: instead of space, UPPERCASE(camel_case)
     `myNameIsNico`
-
 - let
   : allow updating value
-
   - Declare Variable
     `let [NAME] = [VALUE];`
   - Modify Variable
     `[NAME] = [NEW_VALUE];`
-
 - var
   : old version of variable
   - can be redeclared, update avaliable
+
+#
