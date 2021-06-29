@@ -116,3 +116,16 @@
     - can update or add value using object
       `player.name = ~;`
       `player.points = player.points + 15;`
+
+# 2.7 Function 알아보기
+
+- Function
+  : Piece of reusable code
+- Declare Function
+  ```
+  function [NAME]([ARG]) {
+      ~
+  }
+  ```
+- Execute Function
+  `[FUNCTION]();`
