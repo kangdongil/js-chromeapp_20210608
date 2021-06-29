@@ -91,7 +91,7 @@
   : old version of variable
   - can be redeclared, update avaliable
 
-# 2.5 Arrays 알아보기
+# 2.5 Arrays, Objects 알아보기
 
 - Arrays
   lists of data using `[]`
@@ -102,3 +102,17 @@
     - seq start from 0
   - Add Items
     `[ARRAYS_NAME].push([ITEM]);`
+- Objects
+  - Declare Object
+    ```
+    const [NAME] = {
+        [PROP]: [VAL],
+        [PROP]: [VAL], ...
+    }
+    ```
+  - Use Object
+    `[OBJECT].[PROPERTY]`
+    `OBJECT["PROP"]`
+    - can update or add value using object
+      `player.name = ~;`
+      `player.points = player.points + 15;`
