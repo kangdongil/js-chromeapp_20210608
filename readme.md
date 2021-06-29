@@ -52,6 +52,7 @@
   3. `script:src` in end of <body>
   <script src="app.js"></script>
 - Code Top to Bottom
+- `console.log(~);` to check value
 
 # 2.1 데이터 타입(Data Type) 알아보기
 
@@ -90,4 +91,14 @@
   : old version of variable
   - can be redeclared, update avaliable
 
-#
+# 2.5 Arrays 알아보기
+
+- Arrays
+  lists of data using `[]`
+  - Declare Arrays
+    `const [NAME] = [items, items, ...];`
+  - Get Items
+    `NAME[seq]`
+    - seq start from 0
+  - Add Items
+    `[ARRAYS_NAME].push([ITEM]);`
