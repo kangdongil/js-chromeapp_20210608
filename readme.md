@@ -70,6 +70,7 @@
 - OTHERS:
   - null: empty state
   - undefined: variable exist but value is not assigned
+    `let [NAME];`
   - NaN: Not a Number
 
 # 2.2 Variable 알아보기
@@ -95,15 +96,16 @@
 # 2.5 Arrays, Objects 알아보기
 
 - Arrays
-  lists of data using `[]`
+  : lists of data using `[]`
   - Declare Arrays
     `const [NAME] = [items, items, ...];`
   - Get Items
     `NAME[seq]`
     - seq start from 0
-  - Add Items
+  - Add Items on the end
     `[ARRAYS_NAME].push([ITEM]);`
 - Objects
+  : stores keyed data
   - Declare Object
     ```
     const [NAME] = {
@@ -130,7 +132,8 @@
   ```
 - Execute Function
   `[FUNCTION]();`
-- Function inside of Object
+
+* Function inside of Object
   - How to Create
     ```
     const [OBJ_NAME] = {
