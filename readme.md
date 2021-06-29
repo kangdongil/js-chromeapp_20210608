@@ -45,4 +45,24 @@
         <link rel="stylesheet" href="style.css">
     3. `script:src` in end of <body>
         <script src="app.js"></script>
-    
+- Code Top to Bottom
+
+# 2.1 데이터 타입(Data Type) 알아보기
+- NUMERIC
+    - integer
+        `2, 11, 31`
+    - float
+        `1.5, 3.1`
+- STRING(=TEXT)
+    - cover value with "" or ''
+        `"hello"`
+    - number can be string, `"2"`
+
+# 2.2 Variable 알아보기
+- Variable: Save or Hold Value
+ 
+ - const
+    : hold constant value
+    `const [NAME] = [VALUE];`
+    - `[NAME]`: instead of space, UPPERCASE(camel_case)
+        `myNameIsNico`
