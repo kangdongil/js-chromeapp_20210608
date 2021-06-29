@@ -130,3 +130,15 @@
   ```
 - Execute Function
   `[FUNCTION]();`
+- Function inside of Object
+  - How to Create
+    ```
+    const [OBJ_NAME] = {
+        [FUNC_NAME]: function([ARG]) {
+            ~
+        },
+        ~
+    }
+    ```
+  - How to Use
+    `[OBJ].[FUNC]([ARG])`
