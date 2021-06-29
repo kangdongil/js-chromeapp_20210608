@@ -1,7 +1,10 @@
-function sayHello(nameOfPerson, age) {
-    console.log("Hello my name is " + nameOfPerson + " and I'm " + age + ".");
+function plus(firstNum, secondNum) {
+    console.log(firstNum + secondNum);
 }
 
-sayHello("nico", 10);
-sayHello("dal", 23);
-sayHello("lynn", 21);
+function divide(a, b) {
+    console.log(a / b);
+}
+
+plus(8, 60);
+divide(8, 60);

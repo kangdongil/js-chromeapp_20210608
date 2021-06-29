@@ -70,6 +70,7 @@
 - OTHERS:
   - null: empty state
   - undefined: variable exist but value is not assigned
+  - NaN: Not a Number
 
 # 2.2 Variable 알아보기
 
