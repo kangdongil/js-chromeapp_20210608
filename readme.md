@@ -53,6 +53,7 @@
   <script src="app.js"></script>
 - Code Top to Bottom
 - `console.log(~);` to check value
+- `alert()`: show something with alert message
 
 # 2.1 데이터 타입(Data Type) 알아보기
 
@@ -72,6 +73,13 @@
   - undefined: variable exist but value is not assigned
     `let [NAME];`
   - NaN: Not a Number
+-
+
+- typeof [VARIABLE]
+  : check datatype of variable
+- parseInt()
+  : convert string into integer
+  if string, result is NaN.
 
 # 2.2 Variable 알아보기
 
@@ -132,6 +140,7 @@
   ```
 - Execute Function
   `[FUNCTION]();`
+- Get data with 'Argument'
 - Return Result from Function
   `return ~;`
   - after `return`, code doesn't work
@@ -148,3 +157,7 @@
     ```
   - How to Use
     `[OBJ].[FUNC]([ARG])`
+
+# 2.13 조건문(Conditionals) 알아보기
+
+- Conditionals: check if statement is true or not
