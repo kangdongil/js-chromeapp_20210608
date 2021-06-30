@@ -80,6 +80,7 @@
 - parseInt()
   : convert string into integer
   if string, result is NaN.
+- isNaN()
 
 # 2.2 Variable 알아보기
 
@@ -161,3 +162,26 @@
 # 2.13 조건문(Conditionals) 알아보기
 
 - Conditionals: check if statement is true or not
+
+  - if statement
+    ```
+    if (conition) {
+      // condition == true
+    }
+    ```
+  - if/else statement
+    ```
+    if (condition) {
+      // condition == true
+    } else {
+      //condition == false
+    }
+    ```
+  - else if
+
+  * &&: AND Operator
+  * ||: OR Operator
+  * ===: Equal Operator
+  * !==: Not Equal Operator
+
+* condition: determine true or false, it should be boolean
