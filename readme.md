@@ -191,7 +191,11 @@
 
 - Document Object: representation of HTML for JS
   `document.~`
-- Get HTML Element
+- Get HTML Element(getElementBy)
+  - `document.getElementById("[ID]")`
+  - `document.getElementByClassName("[className]")`
+  - `document.getElementByTagName("[tagName]")`
+- Get HTML Element(QuerySelector)
   - `document.querySelector("~")`
     - querySelector works like CSS selector
     - for class, `.[CLASS]`
@@ -199,8 +203,20 @@
     - querySelector only bring first element
   - `document.querySelectorAll("~")`
     - return a list of elements
-  - `document.getElementById("[ID]")`
-  - `document.getElementByClassName("[className]")`
-  - `document.getElementByTagName("[tagName]")`
 - Modify HTML Element
+  -
   - `[ELEMENT].innerText`
+  - CSS style 추가하기
+  - `[ELEMENT].style`
+
+# 3.3 Events 다루기
+
+- `[ELEMENT].addEventListener("[EVENT]", [FUNC]);`
+  1. Set Element by `querySelector`
+  2. Listen Event by `addEventListener`
+  3. Execute Function
+
+* MOUSE-RELATED
+  - click
+  - mouseenter
+  - mouseleave
