@@ -193,5 +193,6 @@
   `document.~`
 - Get HTML Element
   - `document.getElementById("[ID]")`
+  - `document.getElementByClassName("[className]")`
 - Modify HTML Element
   - `[ELEMENT].innerText`
