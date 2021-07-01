@@ -191,3 +191,7 @@
 
 - Document Object: representation of HTML for JS
   `document.~`
+- Get HTML Element
+  - `document.getElementById("[ID]")`
+- Modify HTML Element
+  - `[ELEMENT].innerText`
