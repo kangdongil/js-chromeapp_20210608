@@ -192,7 +192,15 @@
 - Document Object: representation of HTML for JS
   `document.~`
 - Get HTML Element
+  - `document.querySelector("~")`
+    - querySelector works like CSS selector
+    - for class, `.[CLASS]`
+    - for id, `#[ID]`
+    - querySelector only bring first element
+  - `document.querySelectorAll("~")`
+    - return a list of elements
   - `document.getElementById("[ID]")`
   - `document.getElementByClassName("[className]")`
+  - `document.getElementByTagName("[tagName]")`
 - Modify HTML Element
   - `[ELEMENT].innerText`

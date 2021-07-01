@@ -1,3 +1,3 @@
-const hellos = document.getElementsByClassName("hello");
+const title = document.querySelector(".hello h1");
 
-console.log(hellos);
+title.innerHTML = "Hello!";
