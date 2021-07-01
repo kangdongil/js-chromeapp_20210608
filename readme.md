@@ -27,6 +27,7 @@
 
 - Only Programming Language for FrontEnd
 - JS is already bundled in Browser
+- JS handles and modifies HTML Element
 
 # 1.5 JavaScript Framework이란,
 
@@ -185,3 +186,8 @@
   * !==: Not Equal Operator
 
 * condition: determine true or false, it should be boolean
+
+# 3.0 Browser에서 JavaScript 사용하기
+
+- Document Object: representation of HTML for JS
+  `document.~`
