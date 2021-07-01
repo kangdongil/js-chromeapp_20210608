@@ -189,34 +189,47 @@
 
 # 3.0 Browser에서 JavaScript 사용하기
 
-- Document Object: representation of HTML for JS
+- `document` Object: representation of HTML for JS
   `document.~`
-- Get HTML Element(getElementBy)
-  - `document.getElementById("[ID]")`
-  - `document.getElementByClassName("[className]")`
-  - `document.getElementByTagName("[tagName]")`
-- Get HTML Element(QuerySelector)
-  - `document.querySelector("~")`
-    - querySelector works like CSS selector
-    - for class, `.[CLASS]`
-    - for id, `#[ID]`
-    - querySelector only bring first element
-  - `document.querySelectorAll("~")`
-    - return a list of elements
-- Modify HTML Element
-  -
-  - `[ELEMENT].innerText`
-  - CSS style 추가하기
-  - `[ELEMENT].style`
+  - Get HTML Element(getElementBy)
+    - `document.getElementById("[ID]")`
+    - `document.getElementByClassName("[className]")`
+    - `document.getElementByTagName("[tagName]")`
+  - Get HTML Element(QuerySelector)
+    - `document.querySelector("~")`
+      - querySelector works like CSS selector
+      - for class, `.[CLASS]`
+      - for id, `#[ID]`
+      - querySelector only bring first element
+    - `document.querySelectorAll("~")`
+      - return a list of elements
+  - Modify HTML Element
+    - `[ELEMENT].innerText`
+      : change text content
+    - `[ELEMENT].style`
+      : change css style
+- `window` Object: handle window screen
 
 # 3.3 Events 다루기
 
 - `[ELEMENT].addEventListener("[EVENT]", [FUNC]);`
+
   1. Set Element by `querySelector`
   2. Listen Event by `addEventListener`
   3. Execute Function
 
-* MOUSE-RELATED
+- `[ELEMENT].on[EVENT] = [FUNCTION];`
+
+* EVENTS:MOUSE
   - click
   - mouseenter
   - mouseleave
+* EVENTS:WINDOW
+  - resize
+  - CLIPBOARD
+    - copy
+    - cut
+    - paste
+  - CONNECTION
+    - offline
+    - online
