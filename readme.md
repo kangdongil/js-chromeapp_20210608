@@ -140,6 +140,8 @@
     - can update or add value using object
       `player.name = ~;`
       `player.points = player.points + 15;`
+  - Get Object's Property
+    - `[OBJECT].length`
 
 # 2.7 Function 알아보기
 
@@ -312,3 +314,14 @@
     `[STRING].padEnd([LENGTH], [FILL])`
 
 * 1000 ms(milisecond) = 1s(second)
+
+# 6.0 Random Stuff 구현하기
+
+- Random Float from 0 to 1
+  - `Math.random()`
+  - How to Extend random in certain value
+    : Multiply total value(`*[TOTAL]`)
+- Rounding
+  - `Math.ceil()`
+  - `Math.floor()`
+  - `Math.round()`

@@ -18,11 +18,15 @@ function paintGreetings(username) {
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-const saveUsername = localStorage.getItem(USERNAME_KEY);
+function main() {
+  const saveUsername = localStorage.getItem(USERNAME_KEY);
 
-if (saveUsername === null) {
-  loginForm.classList.remove(HIDDEN_CLASSNAME);
-  loginForm.addEventListener("submit", onLoginSubmit);
-} else {
-  paintGreetings(saveUsername);
+  if (saveUsername === null) {
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    loginForm.addEventListener("submit", onLoginSubmit);
+  } else {
+    paintGreetings(saveUsername);
+  }
 }
+
+main();
