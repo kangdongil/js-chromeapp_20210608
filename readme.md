@@ -84,8 +84,10 @@
 - typeof [VARIABLE]
   : check datatype of variable
 - parseInt()
-  : convert string into integer
-  if string, result is NaN.
+  : convert into integer
+  if is not int, result is NaN.
+- String()
+  : convert into string
 - isNaN()
 
 # 2.2 Variable 알아보기
@@ -303,5 +305,10 @@
     - `[DATE].getHours`
     - `[DATE].getMinutes`
     - `[DATE].getSeconds`
+- Configure Date Format with `padStart`
+  - Pad in front of string when length is shorter
+    `[STRING].padStart([LENGTH], [FILL])`
+  - Pad back of string when length is shorter
+    `[STRING].padEnd([LENGTH], [FILL])`
 
 * 1000 ms(milisecond) = 1s(second)
