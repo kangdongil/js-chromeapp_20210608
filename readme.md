@@ -103,6 +103,10 @@
   : old version of variable
   - can be redeclared, update avaliable
 
+* How to use variable in string:
+  1. by +
+  2. ${VARIABLE} + ``(backtick)
+
 # 2.5 Arrays, Objects 알아보기
 
 - Arrays
@@ -215,14 +219,15 @@
   1. Set Element by `querySelector`
   2. Listen Event by `addEventListener`
   3. Execute Function
+  - To get event's information, add first argument `event` to `addEventListener`
 - `[ELEMENT].on[EVENT] = [FUNCTION];`
 -
 
-* EVENTS:MOUSE
+* MouseEvent
   - click
   - mouseenter
   - mouseleave
-* EVENTS:WINDOW
+* Event(Window)
   - `window` Object: handle window screen
   - resize
   - CLIPBOARD
@@ -232,6 +237,8 @@
   - CONNECTION
     - offline
     - online
+* SubmitEvent
+  - submit
 
 # 3.8 ClassName으로 CSS 다루기
 
@@ -247,8 +254,14 @@
 
 # 4.0 Login 구현하기
 
-- Ask User's Name
-- How to get data
-- How to display data
+- Get User's Name
+  1. Create <form> & <input>
+  - disable form's default action(ex. refresh)
+    `event.preventDefault();`
+  2. Get <input> Value in VARIABLE
+  3. Display Value
+  - configure hidden with CSS
+    `display: none;`
+    - add or remove class "hidden" from classList
 
 #
