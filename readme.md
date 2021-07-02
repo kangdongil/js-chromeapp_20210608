@@ -222,6 +222,10 @@
     - `[ELEMENT].style`
       : change css style
 
+* Two Way to get child Element
+  - Declare Parent Element and based on it
+  - Start from document and express parent as CSS way
+
 # 3.3 Events 다루기
 
 - `[ELEMENT].addEventListener("[EVENT]", [FUNC]);`
