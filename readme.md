@@ -285,4 +285,11 @@
   - `localStorage.getItem([KEY])`
   - `localStorage.removeItem([KEY])`
 
-#
+# 5.0 Clock 구현하기
+
+- Function execute repeatly with interval
+  `setInterval([FUNCTION], ~ms)`
+- Function execute once with delay
+
+* interval
+* 1000 ms(milisecond) = 1s(second)
