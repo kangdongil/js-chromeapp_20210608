@@ -1,12 +1,12 @@
 ## ToDoList
 
-- Login
-- Remember Information
-- Clock
-- GeoLocation
-- Background
-- Random Quote
-- To-Do List
+- [x] Login
+- [ ] Remember Information
+- [ ] Clock
+- [ ] GeoLocation
+- [ ] Background
+- [ ] Random Quote
+- [ ] To-Do List
 
 # 1.2 Requirements 이론 살펴보기
 
@@ -29,7 +29,7 @@
 - JS is already bundled in Browser
 - JS handles and modifies HTML Element
 
-# 1.5 JavaScript Framework이란,
+# 1.5 JavaScript Framework 알아보기
 
 - React Native
   : Help create Android, iOS Application
@@ -53,8 +53,13 @@
   3. `script:src` in end of <body>
   <script src="app.js"></script>
 - Code Top to Bottom
-- `console.log(~);` to check value
-- `alert()`: show something with alert message
+- How to check value
+  - `console.log();` to check value on console
+  - `alert();`: show something with alert message
+- if certain string used repeatly, use VARIABLE
+  - VARIABLE should be uppercase
+- if similar line of code used repeatly, use function
+- To comment, start with `//`
 
 # 2.1 데이터 타입(Data Type) 알아보기
 
@@ -86,13 +91,13 @@
 # 2.2 Variable 알아보기
 
 - Variable: Save or Hold Value
+- Variable Naming Convention is `camelCase`
+  - instead of space, UPPERCASE first letter
 - always `const`, something `let`, never `var`
 
 - const
   : hold constant value
   `const [NAME] = [VALUE];`
-  - `[NAME]`: instead of space, UPPERCASE(camel_case)
-    `myNameIsNico`
 - let
   : allow updating value
   - Declare Variable
@@ -145,7 +150,7 @@
   }
   ```
 - Execute Function
-  `[FUNCTION]();`
+  `[FUNCTION]([ARG]);`
 - Get data with 'Argument'
 - Return Result from Function
   `return ~;`
@@ -264,7 +269,15 @@
     `display: none;`
     - add or remove class "hidden" from classList
 - Save User's Name
-  - setItem Username in localStorage
+  - setItem `username` in localStorage
+  - innerText `username`
+- Load User's Name
+  - if localStorage key `username` is null,
+    - display <form>
+    - addEventListener "submit"
+  - if localStorage key `username` has value,
+    - display <h1>
+    - getItem `username` from localStorage
 
 * local storage: save data on browser
   - [Inspector]-[Application]-[Storage]-[Local_Storage]
