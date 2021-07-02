@@ -263,5 +263,13 @@
   - configure hidden with CSS
     `display: none;`
     - add or remove class "hidden" from classList
+- Save User's Name
+  - setItem Username in localStorage
+
+* local storage: save data on browser
+  - [Inspector]-[Application]-[Storage]-[Local_Storage]
+  - `localStorage.setItem([KEY], [VALUE]);`
+  - `localStorage.getItem([KEY])`
+  - `localStorage.removeItem([KEY])`
 
 #
