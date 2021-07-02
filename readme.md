@@ -1,7 +1,7 @@
 ## ToDoList
 
 - [x] Login
-- [ ] Remember Information
+- [x] Remember Information
 - [ ] Clock
 - [ ] GeoLocation
 - [ ] Background
@@ -287,9 +287,21 @@
 
 # 5.0 Clock 구현하기
 
-- Function execute repeatly with interval
-  `setInterval([FUNCTION], ~ms)`
-- Function execute once with delay
+- Interval and Timeouts
+  - Function execute repeatly with interval
+    `setInterval([FUNCTION], ~ms)`
+  - Function execute once with delay
+    `setTimeout([FUNCTION], ~ms)`
+- Date Object
+  - Get current Date Object
+    `new Date()`
+  - Get specific data from Date Object
+    - `[DATE].getFullYear`
+    - `[DATE].getMonth`
+    - `[DATE].getDate`
+    - `[DATE].getDay`
+    - `[DATE].getHours`
+    - `[DATE].getMinutes`
+    - `[DATE].getSeconds`
 
-* interval
 * 1000 ms(milisecond) = 1s(second)
