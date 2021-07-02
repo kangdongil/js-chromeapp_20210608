@@ -233,3 +233,15 @@
   - CONNECTION
     - offline
     - online
+
+# 3.8 ClassName으로 CSS 다루기
+
+- [ELEMENT].className
+  - substitute classname
+  - replacement occur
+- [ELEMENT].classList
+  - classList.add([CLASSNAME])
+    - preserve original one and add classname
+  - classList.remove([CLASSNAME])
+  - classList.toggle([CLASSNAME])
+    - check classname exist and do the opposite
