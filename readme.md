@@ -187,7 +187,7 @@
 
 * condition: determine true or false, it should be boolean
 
-# 3.0 Browser에서 JavaScript 사용하기
+# 3.0 JavaScript로 HTML Element 불러오기
 
 - `document` Object: representation of HTML for JS
   `document.~`
@@ -208,23 +208,22 @@
       : change text content
     - `[ELEMENT].style`
       : change css style
-- `window` Object: handle window screen
 
 # 3.3 Events 다루기
 
 - `[ELEMENT].addEventListener("[EVENT]", [FUNC]);`
-
   1. Set Element by `querySelector`
   2. Listen Event by `addEventListener`
   3. Execute Function
-
 - `[ELEMENT].on[EVENT] = [FUNCTION];`
+-
 
 * EVENTS:MOUSE
   - click
   - mouseenter
   - mouseleave
 * EVENTS:WINDOW
+  - `window` Object: handle window screen
   - resize
   - CLIPBOARD
     - copy
@@ -245,3 +244,11 @@
   - classList.remove([CLASSNAME])
   - classList.toggle([CLASSNAME])
     - check classname exist and do the opposite
+
+# 4.0 Login 구현하기
+
+- Ask User's Name
+- How to get data
+- How to display data
+
+#
