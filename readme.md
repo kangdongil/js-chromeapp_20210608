@@ -320,8 +320,18 @@
 - Random Float from 0 to 1
   - `Math.random()`
   - How to Extend random in certain value
-    : Multiply total value(`*[TOTAL]`)
+    : Multiply total value(`* [TOTAL]`)
 - Rounding
   - `Math.ceil()`
   - `Math.floor()`
   - `Math.round()`
+
+# 6.1 JavaScript로 HTML Element 만들기
+
+- `[ELEMENT].createElement();`
+  - HTML Tag attribute is Element object's property
+    `<img src="~"> = img.src`
+- How to add Element to HTML
+  - `[ELEMENT].appendChild();`
+  - `[ELEMENT].prepend();`
+  - `[ELEMENT].insertBefore([NEW], [REF]);`
