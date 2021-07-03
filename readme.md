@@ -381,3 +381,15 @@
   - if refresh, array = localstorage
     - make sure array is let variable
     - paint todo as `.forEach`
+
+# 8.0 Weather 구현하기
+
+- Get User's GeoLocation
+
+  - get CurrentPosition
+    `navigator.geolocation.getCurrentPosition([SUCCESS_FUNC], [ERROR_FUNC])`
+  - get latitude and longitude
+    `[OBJECT].coords.latitude`
+    `[OBJECT].coords.longitude`
+
+  [WeatherAPI](https://openweathermap.org/)
