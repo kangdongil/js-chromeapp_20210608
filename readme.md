@@ -143,6 +143,13 @@
   - Get Object's Property
     - `[OBJECT].length`
 
+* JSON.stringify()
+  : convert array into string
+* JSON.parse()
+  : convert string into array
+* [ARRAY].forEach([FUNCTION])
+  Execute function on each array's item
+
 # 2.7 Function 알아보기
 
 - Function
@@ -172,6 +179,9 @@
     ```
   - How to Use
     `[OBJ].[FUNC]([ARG])`
+* Arrow Function
+  : can express function on shorter way
+  `([ARG]) => Code`
 
 # 2.13 조건문(Conditionals) 알아보기
 
@@ -332,7 +342,7 @@
 
 # 6.1 JavaScript로 HTML Element 만들기
 
-- `[ELEMENT].createElement();`
+- `document.createElement();`
   - HTML Tag attribute is Element object's property
     `<img src="~"> = img.src`
 - How to add Element to HTML
@@ -348,8 +358,14 @@
   - `event.preventDefault`
   - get the value from <input>
   - empty the value and `paintToDo`
-- Create `paintToDo` function
+- `paintToDo` function
   - get <input> value from argument
   - create <li> > <span>
   - innerText <span>
   - appendChild <li> in <ul>
+- `deleteToDo` function
+  - create <button>
+  - addEventListener <button> "click"
+  - `event.target.parentElement`
+  - `[ELEMENT].remove`
+- `saveToDo` function
