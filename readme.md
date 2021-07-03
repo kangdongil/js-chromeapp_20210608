@@ -369,3 +369,9 @@
   - `event.target.parentElement`
   - `[ELEMENT].remove`
 - `saveToDo` function
+  - Array: .push
+  - HTML: paintToDo
+  - LocalStorage: saveToDos
+  - if refresh, array = localstorage
+    - make sure array is let variable
+    - paint todo as `.forEach`
