@@ -2,10 +2,10 @@
 
 - [x] Login
 - [x] Remember Information
-- [ ] Clock
+- [x] Clock
 - [ ] GeoLocation
-- [ ] Background
-- [ ] Random Quote
+- [x] Background
+- [x] Random Quote
 - [ ] To-Do List
 
 # 1.2 Requirements 이론 살펴보기
@@ -339,3 +339,17 @@
   - `[ELEMENT].appendChild();`
   - `[ELEMENT].prepend();`
   - `[ELEMENT].insertBefore([NEW], [REF]);`
+
+# 7.0 ToDo 구현하기
+
+- Create <form><ul><li> in HTML
+- Declare const of HTML element in JS
+- Create Input Form for ToDo
+  - `event.preventDefault`
+  - get the value from <input>
+  - empty the value and `paintToDo`
+- Create `paintToDo` function
+  - get <input> value from argument
+  - create <li> > <span>
+  - innerText <span>
+  - appendChild <li> in <ul>
