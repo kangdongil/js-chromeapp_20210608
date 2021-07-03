@@ -3,10 +3,10 @@
 - [x] Login
 - [x] Remember Information
 - [x] Clock
-- [ ] GeoLocation
+- [x] GeoLocation
 - [x] Background
 - [x] Random Quote
-- [ ] To-Do List
+- [x] To-Do List
 
 # 1.2 Requirements 이론 살펴보기
 
@@ -385,11 +385,18 @@
 # 8.0 Weather 구현하기
 
 - Get User's GeoLocation
-
   - get CurrentPosition
     `navigator.geolocation.getCurrentPosition([SUCCESS_FUNC], [ERROR_FUNC])`
   - get latitude and longitude
     `[OBJECT].coords.latitude`
     `[OBJECT].coords.longitude`
+- Get weather from WeatherAPI
+  ```
+  fetch([URL])
+  .then((response) => response.json())
+  .then((data) => {~})
+  ```
 
-  [WeatherAPI](https://openweathermap.org/)
+* [WeatherAPI](https://openweathermap.org/)
+* API: help communicating between programs ad servers
+  - simple command, do complicate things
