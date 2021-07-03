@@ -370,6 +370,8 @@
   - `[ELEMENT].remove`
 - `saveToDo` function
   - Array: .push
+    - instead of text, push object item
+      which contain text and id
   - HTML: paintToDo
   - LocalStorage: saveToDos
   - if refresh, array = localstorage
