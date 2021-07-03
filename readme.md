@@ -149,6 +149,10 @@
   : convert string into array
 * [ARRAY].forEach([FUNCTION])
   Execute function on each array's item
+* [ARRAY].filter([FUNCTION])
+  - return new array of filtered data
+  - critera for filter is boolean(true or false)
+  - if true then include, if false then exclude
 
 # 2.7 Function 알아보기
 
